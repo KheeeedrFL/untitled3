@@ -37,12 +37,12 @@ class MyHomePage extends ConsumerWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: InkWell(onTap: counterLogic.incrementAll,child: const Text('Flutter Demo Home Page')),
-      ),
+      ),/////////
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            InkWell(
+            InkWell(//
               onTap: counterLogic.increment2,
               child: const Text(
                 'You have pushed the button this many times:',
