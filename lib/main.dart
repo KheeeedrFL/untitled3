@@ -35,7 +35,7 @@ class MyHomePage extends ConsumerWidget {
   final int _counter = 0;
 
   @override
-  Widget build(BuildContext context, ref) {
+  Widget build(BuildContext context, ref) {//dfdf
     final counterLogic = ref.read(counterProviderScreen);
     return Scaffold(
       appBar: AppBar(
